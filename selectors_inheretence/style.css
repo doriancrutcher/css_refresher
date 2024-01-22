@@ -1,0 +1,43 @@
+*{
+    font-family: monospace;
+    
+}
+
+body{
+    font-size: 22px;
+    
+}
+
+p{
+    color: purple;
+}
+
+p{
+    color:blue
+}
+
+/* This selector will select all the h1 and h2 elements */
+h1, h2{
+    color: red;
+}
+
+/* this selector will select all the span elements inside the p element */
+p span {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+.highlight{
+    color:gold;
+    text-transform: uppercase;
+}
+
+.gray{
+    color:gray
+}
+
+
+/* you should rarely use id selectors in your css. It's bad practice */
+#second{
+    font-style: italic;
+}
